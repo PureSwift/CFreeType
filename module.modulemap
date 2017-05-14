@@ -1,7 +1,5 @@
 module CFreeType [system] {
-    header "/usr/include/freetype2/ft2build.h"
-    header "/usr/include/freetype2/freetype.h"
-    header "/usr/include/freetype2/tttables.h"
+    header "shim.h"
     link "freetype"
     export *
 }
